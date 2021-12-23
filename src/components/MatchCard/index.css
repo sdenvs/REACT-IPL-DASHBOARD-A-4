@@ -3,10 +3,47 @@
   background-color: #0f172a;
   padding: 15px;
   height: 300px;
+  border-radius: 10px;
 }
 .matchCard-img {
   width: 80%;
+  height: 100px;
 }
 .matchCard-heading {
   font-size: 18px;
+  text-align: center;
+}
+
+.result-status-won {
+  font-size: 15px !important;
+  color: green;
+}
+.result-status-lost {
+  font-size: 15px !important;
+  color: red;
+}
+.matchCard-bg p {
+  text-align: center;
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .matchCard-bg {
+    height: 450px;
+    border-radius: 20px;
+  }
+  .matchCard-img {
+    height: 200px;
+  }
+  .matchCard-heading {
+    font-size: 25px;
+  }
+  .matchCard-bg p {
+    font-size: 18px;
+  }
+  .result-status-lost {
+    font-size: 22px !important;
+  }
+  .result-status-won {
+    font-size: 22px !important;
+  }
 }

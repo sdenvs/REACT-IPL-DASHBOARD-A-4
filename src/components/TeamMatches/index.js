@@ -57,7 +57,7 @@ class TeamMatches extends Component {
         <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
       </div>
     ) : (
-      <div className={`${id}-bg teamMatches-bg-container container p-3`}>
+      <div className={`${id}-bg teamMatches-bg-container container-fluid p-3`}>
         <img className="banner-image col-12" src={teamBannerUrl} alt={id} />
         <p className="col-12">Latest Matches</p>
         <div className="col-12">
