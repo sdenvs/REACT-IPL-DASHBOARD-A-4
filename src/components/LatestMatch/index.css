@@ -1,1 +1,57 @@
-/* Write your CSS here */
+/*   const modDetails = {
+    competingTeam: details.competing_team,
+    competingTeamLogo: details.competing_team_logo,
+    date: details.date,
+    firstInnings: details.first_innings,
+    id: details.id,
+    manOfTheMatch: details.man_of_the_match,
+    matchStatus: details.match_status,
+    result: details.result,
+    secondInnings: details.second_innings,
+    umpires: details.umpires,
+    venue: details.venue,
+  }*/
+.latestMatch-bg {
+  background-color: #0f172a;
+  border-radius: 15px;
+  padding: 15px;
+}
+.competive-team-logo {
+  width: 90%;
+}
+.competing-team {
+  font-size: 20px;
+}
+.competing-date {
+  font-size: 18px;
+}
+
+.competing-data p {
+  font-size: 16px;
+}
+.inning-details p {
+  font-size: 14px;
+}
+.inning-details h1 {
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .competing-team {
+    font-size: 40px;
+  }
+  .competing-date {
+    font-size: 28px !important;
+  }
+  .competing-data p {
+    font-size: 20px;
+  }
+  .inning-details p {
+    font-size: 18px;
+  }
+  .inning-details h1 {
+    font-size: 22px;
+  }
+  .inning-details {
+    text-align: end;
+  }
+}

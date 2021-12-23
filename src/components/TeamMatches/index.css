@@ -1,1 +1,47 @@
 /* Write your CSS here */
+.RCB-bg {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+}
+
+.KKR-bg {
+  background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+}
+.KXP-bg {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+
+.CSK-bg {
+  background-image: linear-gradient(to bottom, #f7db00, #1e293b);
+}
+
+.RR-bg {
+  background-image: linear-gradient(to bottom, #da237b, #1e293b);
+}
+
+.MI-bg {
+  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+}
+
+.SH-bg {
+  background-image: linear-gradient(to bottom, #f26d22, #1e293b);
+}
+
+.DC-bg {
+  background-image: linear-gradient(to bottom, #4f5db0, #1e293b);
+}
+
+* {
+  color: white;
+}
+
+.teamMatches-bg-container {
+  height: 100vh;
+  overflow-y: scroll;
+}
+.banner-image {
+  width: 100%;
+}
+.ulList {
+  list-style-type: none;
+  padding: 0px;
+}

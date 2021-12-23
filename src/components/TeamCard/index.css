@@ -1,1 +1,31 @@
 /* Write your CSS here */
+.team-card {
+  background-color: rgba(255, 255, 255, 0.2);
+  background-size: cover;
+  height: 80px;
+  width: 40%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.team-card-image {
+  width: 30px;
+  height: 40px;
+}
+.team-card-heading {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .team-card-image {
+    width: 60px;
+    height: 70px;
+  }
+  .team-card-heading {
+    font-size: 20px;
+  }
+  .team-card {
+    height: 120px;
+  }
+}
